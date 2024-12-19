@@ -1,0 +1,13 @@
+name: yolov5
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - flask
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - opencv
+  - pandas
